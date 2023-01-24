@@ -2,18 +2,73 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    margin: 0 60px;
+    margin: 0;
+}
+
+.top-section {
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin: 10px 100px 100px;
 }
 
-.left-links, .right-links {
+.header a {
+    text-decoration: none;
+}
+
+.header .right-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header .logo-text a {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-text, .right-links {
    list-style-type: none;
    display: flex; 
    align-items: center;
    padding: 0;
    gap: 16px;
+}
+
+.hero {
+    margin:  10px 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero .main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero img {
+    width: 450px;
+    height: 250px;
+    flex: 1 0 auto;
+}
+
+.hero button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 30px;
 }
