@@ -99,8 +99,20 @@ body {
 
 .quote {
     background-color: #E5E7EB;
-    font-size: 36px;
     color: #1F2937;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
 }    
 
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote .subtext {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
